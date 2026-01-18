@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List UAS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.10/dist/sweetalert2.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="qaal.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>To-Do List Harian</h1>
+
+    <form id="todoForm">
+        <input type="text" id="taskInput" placeholder="Masukkan tugas">
+        <button type="submit">Tambah</button>
+    </form>
+
+    <ul id="taskList"></ul>
+
+    <p>
+        Total Tugas: <span id="total">0</span> |
+        Selesai: <span id="done">0</span>
+    </p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.10/dist/sweetalert2.all.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
